@@ -18,12 +18,13 @@
 	</path>
 
 	<path name="gain-media-headset">
-		<ctl name="HPOUT1L Impedance Volume" value="127" />
-		<ctl name="HPOUT1R Impedance Volume" value="127" />
+		<ctl name="HPOUT1L Impedance Volume" value="90" />
+		<ctl name="HPOUT1R Impedance Volume" value="90" />
 	</path>
 
 	<path name="gain-media-headphone">
-		<path name="gain-media-headset"/>
+		<ctl name="HPOUT1L Impedance Volume" value="127" />
+		<ctl name="HPOUT1R Impedance Volume" value="127" />
 	</path>
 
 	<path name="gain-media-dsd64-headset">
