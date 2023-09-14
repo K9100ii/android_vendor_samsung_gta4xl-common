@@ -50,6 +50,10 @@ on post-fs-data
     chown wifi wifi /sys/wifi/ant
     chmod 0640 /sys/wifi/ant
 
+    # for DCXO CALDATA
+    chown wifi wifi /sys/wifi/wlbt_dcxo_caldata
+    chmod 0640 /sys/wifi/wlbt_dcxo_caldata
+
 on fs
 # scsc daemon
     start wlbtd
