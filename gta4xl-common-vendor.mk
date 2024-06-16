@@ -116,3 +116,13 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.gnss@2.0-service \
     tzdaemon \
     tzts_daemon
+
+PRODUCT_PACKAGES += \
+    libGLES_mali_libOpenCL_symlink32 \
+    libGLES_mali_libOpenCL.so_symlink32 \
+    libGLES_mali_libOpenCL.so.1_symlink32 \
+    libGLES_mali_vulkan.universal9611_symlink32 \
+    libGLES_mali_libOpenCL_symlink64 \
+    libGLES_mali_libOpenCL.so_symlink64 \
+    libGLES_mali_libOpenCL.so.1_symlink64 \
+    libGLES_mali_vulkan.universal9611_symlink64
