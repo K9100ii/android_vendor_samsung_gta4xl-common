@@ -78,6 +78,7 @@ PRODUCT_PACKAGES += \
     libSEF.quram \
     libexynoscamera_plugin \
     libsecnativefeature \
+    libsecril-client.exynos9611 \
     libsensorlistener \
     libteecl \
     libuniapi \
@@ -87,7 +88,6 @@ PRODUCT_PACKAGES += \
     sensors.sensorhub \
     libprofileparamstorage \
     libsecaudiocoreutils \
-    libsecril-client.exynos9611 \
     libspatializerparamstorage \
     libwvhidl \
     libiwt \
