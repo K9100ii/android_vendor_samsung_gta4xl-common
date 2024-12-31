@@ -93,7 +93,7 @@ PRODUCT_PACKAGES += \
     libkeymaster_helper \
     libskeymaster4device \
     vendor.samsung.hardware.gnss@2.0 \
-    manifest_android.hardware.drm@1.4-service.widevine \
+    manifest_android.hardware.drm@1.4-service.widevine.xml \
     android.hardware.drm@1.4-service.widevine \
     vendor.samsung.hardware.gnss@2.0-service \
     tzdaemon \
